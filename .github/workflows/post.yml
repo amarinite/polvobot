@@ -3,7 +3,7 @@ name: "Post to Bluesky"
 on:
   schedule:
     - cron: "*/1 * * * *"
-  workflow_dispatch: #Correcta indentación aquí
+  workflow_dispatch:
 
 jobs:
   build:
